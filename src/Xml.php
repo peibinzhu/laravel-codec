@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace PeibinLaravel\Codec;
 
 use Illuminate\Contracts\Support\Arrayable;
-use PeibinLaravel\Codec\Contracts\Xmlable;
 use PeibinLaravel\Codec\Exception\InvalidArgumentException;
+use PeibinLaravel\Contracts\Xmlable;
 use SimpleXMLElement;
 
 class Xml

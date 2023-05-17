@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace PeibinLaravel\Codec\Packer;
 
-use PeibinLaravel\Codec\Contracts\PackerInterface;
+use PeibinLaravel\Contracts\PackerInterface;
 
 class JsonPacker implements PackerInterface
 {
