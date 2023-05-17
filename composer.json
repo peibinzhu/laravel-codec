@@ -1,0 +1,34 @@
+{
+  "name": "peibin/laravel-codec",
+  "description": "Peibin codec component for Laravel.",
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "laravel"
+  ],
+  "authors": [
+    {
+      "name": "Peibin Zhu",
+      "email": "zhupeibin1207@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "ext-xml": "*",
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PeibinLaravel\\Codec\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "PeibinLaravelTest\\Codec\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "prefer-stable": true
+}
